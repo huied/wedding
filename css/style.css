@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Great+Vibes|Julius+Sans+One|La+Belle+Aurore|Lovers+Quarrel|Marcellus|Montserrat+Alternates|Mr+Bedfort|Mrs+Saint+Delafield|Parisienne|Princess+Sofia|Qwigley|Rochester|Ruthie|Satisfy|Tangerine');
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -18,7 +18,7 @@ body {
   font-size: 18px;
   line-height: 1.8;
   color: #777777;
-  color: #7f7f7f;
+  color: #ffffff;
   background: #fff;
   height: 100%;
   position: relative;
