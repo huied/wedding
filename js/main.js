@@ -2,6 +2,22 @@
 
 	'use strict';
 
+	$("#rsvp_form").submit(function(e){
+			e.preventDefault()
+
+			var form = $(this)
+			var action = form.attr('action')
+			var data = form.serialize()
+
+			$('.submit_button').hide()
+
+			$.post(action, data, function success(resp) {
+				$('#rsvp_form').html('Thanks for RSVPing!')
+			})
+
+			return false
+		})
+
 	// iPad and iPod detection
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
