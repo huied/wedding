@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Great+Vibes|Homemade+Apple|Julius+Sans+One|La+Belle+Aurore|Lovers+Quarrel|Marcellus|Montserrat+Alternates|Mr+Bedfort|Mrs+Saint+Delafield|Parisienne|Princess+Sofia|Qwigley|Rochester|Ruthie|Satisfy|Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Raleway|Roboto');
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -13,12 +14,12 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.8;
   color: #777777;
-  color: #ffffff;
+  color: #b67c7c;
   background: #fff;
   height: 100%;
   position: relative;
@@ -41,7 +42,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Clicker Script", cursive;
+  font-family: "Alex Brush", cursive;
   font-weight: 400;
 }
 
@@ -251,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-heading h2 {
   font-size: 80px;
-  color: #FF847C;
+  color: #b67c7c;
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
@@ -714,7 +715,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .couple {
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(214, 204, 204, 1);
   padding: 40px;
   margin-top: 110px;
 }
@@ -729,7 +730,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #f4f3e2;
+  background: #ffffff;
   z-index: -1;
 }
 .couple.bride {
@@ -743,7 +744,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #fef6f8;
+  background: #ffffff;
   z-index: -1;
 }
 .couple img {
@@ -761,7 +762,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 .couple .desc h2 {
-  color: #FF847C;
+  color: #b67c7c;
   font-size: 40px;
   margin-bottom: 30px;
 }
